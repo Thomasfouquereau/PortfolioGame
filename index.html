@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Thomas Fouquereau</title>
+    <meta name="description" content="Portfolio de Thomas Fouquereau, ui designer.">
+    <meta name="keywords" content="portfolio, Thomas Fouquereau, ui designer">
+    <meta name="author" content="Thomas Fouquereau">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1 class="title-nom">portfolio</h1>
+            <span class="title-version">A0.01</span>
+        </div>
+        <div class="alpha">
+            <span>alpha</span>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav">
+            <ul class="nav-jouer">
+                <li>
+                    <a class="nouvelle-partie" id="a">nouvelle partie</a>
+                </li>
+                <li>
+                    <a class="continuer" id="a">continuer</a>
+                </li>
+            </ul>
+            <ul class="nav-autre">
+                <li>
+                    <a class="options">options</a>
+                </li>
+                <li>
+                    <a class="accesibilité">accesibilité</a>
+                </li>
+                <li>
+                    <a class="crédits">crédits</a>
+                </li>
+
+            </ul>
+            <ul class="nav-quitter">
+                <li>
+                    <a class="quitter" href="https://www.google.fr/">quitter</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section>
+        <div class="news">
+            <p class="news-title">update A0.01 disponible</p>
+            <img class="news-img" src="./asset/update A0 1 img.png">
+            <p class="news-title__description">update A0.1 ajoute une carte pour ce repère</p>
+            <p class="news-description">
+                Bonjour,<br />
+                Je vous présente cette nouvel mis à jour de portfolio de nouveau skills
+                son disponible certain bug son corrigé
+                Plus d info sur le patch note
+            </p>
+            <a class="news-link">Patch note</a>
+        </div>
+    </section>
+
+    <div class="hover-screen" id="hover-screen">
+        <div class="hover-screen__title">
+            <h1 class="hover-screen__title-nom">portfolio</h1>
+            <span class="hover-screen__title-version">A0.01</span>
+        </div>
+        <span class="hover-screen-experimental">Experimental</span>
+        <p class="hover-screen-cliquez">cliquez n'importe où pour continuer</p>
+    </div>
+
+    <div id="loader-snipe">
+        <span class="loader"></span>
+        <p class="tips" id="tips"></p>
+        <button class="loader-button__passer" id="buttonPasser">passer</button>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <button class="footer-button">
+                <img class="footer-button__img" src="./asset/arrow for button.svg">
+                <span>pied de page</span>
+            </button>
+            <div class="footer-info">
+            </div>
+        </div>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+
+</html>

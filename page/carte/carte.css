@@ -1,0 +1,112 @@
+#cadreCarte{
+    position: absolute;
+    background-color: #3A86FF;
+    padding: 1vw;
+    width: 70vw;
+    height: 50vh;
+    top: -1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 1vw 1vw ;
+    display: none;
+    color: #4A4E69;
+    z-index: 2000;
+}
+
+#carteFond{
+    background-color: #fff;
+    border: 6px solid #4A4E69;
+    border-radius: 1vw;
+    height: 97%;
+}
+
+#carteLegende{
+    position: absolute;
+    bottom: 2vw;
+    left: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 3px solid #4A4E69;
+    border-radius: 1vw;
+    padding: 0.4vw 0.8vw;
+    width: 15vw;
+}
+
+#carteLegende1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14vw;
+    font-size: 0.9vw;
+}
+
+#carteLegende1Img{
+    width: 1.5vw;
+}
+
+#carteLegende2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14vw;
+    font-size: 0.9vw;
+}
+
+#carteLegende2Img{
+    width: 1.1vw;
+}
+
+#carteClose{
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    width: 2vw;
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: 0;
+}
+
+#carte{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 50vw;
+    transform: translate(50%, -50%);
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: 0;
+}
+
+#cartePlay{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 8vw;
+    position: absolute;
+    top: 42%;
+}
+
+#buttonCarte {
+    position: absolute;
+    bottom: calc(height/2);
+    left: 36%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #3A86FF;
+    width: 3.2vw;
+    font-size: 0.5vw;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px 10px;
+    border: 0px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#buttonCarteImg {
+    width: 1.4vw;
+}

@@ -1,0 +1,93 @@
+<!-- secondPage.html -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deuxième Page</title>
+    <link rel="stylesheet" href="./presentation.css">
+    <link rel="stylesheet" href="../carte/carte.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <button class="nav-button" id="carteStart">
+            <img class="nav-button__img" src="../../asset/carte.svg">
+            <span class="nav-carte">carte</span>
+        </button>
+        <button class="inventaire-button" id="inventaire">
+            <img class="inventaire-button__img" src="../../asset/carte.svg">
+            <span class="inventaire-button_text">inventaire</span>
+        </button>
+        <a class="nav-button__next">
+            <img class="nav-logo" src="../../asset/arrow play for button.svg">
+        </a>
+        <a class="nav-button__next-bis">
+            <img class="nav-logo__bis" src="../../asset/arrow play for button.svg">
+        </a>
+        <div>
+            <span class="arrow-text">cliquez sur le bouton pour en savoir plus</span>
+            <img class="arrow-img" src="../../asset/arrow 3.svg" alt="fleche">
+            <img class="ellipse-img" src="../../asset/Ellipse 3.svg" alt="Ellipse">
+            <a class="nav-button__previous" href="../acceuil/acceuil.html">
+                <img class="nav-logo__previous" src="../../asset/arrow play for button.svg">
+            </a>
+        </div>
+    </nav>
+
+    <section>
+
+        <button id="open-tuto-button">
+            ?
+        </button>
+
+        <div class="tuto" id="tuto">
+            <div class="tuto-text">
+            </div>
+            <div class="tuto-button__nav">
+            </div>
+        </div>
+
+    </section>
+
+    <main>
+        <div class="container">
+            <h1 class="container-title">
+                portfolio
+            </h1>
+            <p class="container-paragraphe">
+                je suis thomas fouquereau développeur web passionné par la programmation et l'informatique depuis de
+                nombreuses années.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies neque nec enim ultricies, et
+                auctor mi ultrices. Curabitur in fermentum augue. Morbi sed tempus libero, tincidunt tincidunt eros.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies neque nec enim ultricies, et
+                auctor mi ultrices. Curabitur in fermentum augue.
+            </p>
+        </div>
+
+    </main>
+
+    </header>
+
+    <footer>
+        <div class="footer">
+            <button class="footer-button">
+                <img class="footer-button__img" src="../../asset/arrow for button.svg">
+                <span>pied de page</span>
+            </button>
+            <div class="footer-info">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="presentation.js"></script>
+<script src="../carte/carte.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</html>

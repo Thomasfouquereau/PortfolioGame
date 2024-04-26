@@ -1,0 +1,205 @@
+* {
+    font-family: 'Bungee', sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Avalon;
+    src: url(/font/Avalon.ttf);
+}
+
+/* nav */
+
+.nav-button {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A86FF;
+    width: 3vw;
+    font-size: 0.5vw;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.nav-button__img {
+    width: 1.4vw;
+}
+
+.nav-carte {
+    color: #fff;
+}
+
+.nav-button__next{
+    position: absolute;
+    background-color: #3A86FF;
+    border-radius: 100px 0px 0px 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    width: 3vw;
+    height: 4vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-button__next:hover {
+    width: 3.5vw;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-top: 8vw;
+
+}
+
+.Titre-nom {
+    font-family: Avalon;
+    font-weight: 400;
+    font-size: 7vw;
+    color: #3A86FF;
+}
+
+.text-defilant {
+    font-size: 1.4vw;
+    margin-top: 1vw;
+    width: 60%;
+    text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* tuto */
+
+.tuto {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4A4E69;
+    color: #fff;
+    height: 40vh;
+}
+
+.tuto-carte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 60%;
+    width: 30vw;
+}
+
+.tuto-carte__text {
+    position: absolute;
+    font-size: 1.2vw;
+    text-wrap: nowrap;
+    rotate: -10deg;
+    left: 7vw;
+    top: -1.5vw;
+}
+
+.tuto-carte__ellipse {
+    position: absolute;
+    width: 15vw;
+}
+
+.tuto-carte__carte {
+    position: absolute;
+    width: 6vw;
+}
+
+.tuto-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 60%;
+}
+
+.tuto-info__text {
+    font-size: 1.3vw;
+    text-align: center;
+    line-height: 1.7vw;
+    position: absolute;
+    top: 3vw;
+}
+
+.tuto-info__arrow-2 {
+    position: absolute;
+    left: -3vw;
+    width: 8vw;
+}
+
+.tuto-info__arrow-1 {
+    position: absolute;
+    right: -3vw;
+    width: 8vw;
+}
+
+.tuto-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 60%;
+    width: 30vw;
+}
+
+.tuto-button__text {
+    position: absolute;
+    font-size: 1.2vw;
+    text-wrap: nowrap;
+    rotate: 10deg;
+    top: -1.5vw;
+    left: 7vw;
+}
+
+.tuto-button__ellipse{
+    position: absolute;
+    width: 15vw;
+}
+
+.tuto-button__button {
+    position: absolute;
+    width: 6vw;
+}
+
+/* footer */
+
+.footer-button {
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    width: 9vw;
+    font-size: 0.5vw;
+    background-color: #3A86FF;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px 10px 0px 00px;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-size: 0.6vw;
+}
+
+.footer-button__img {
+    width: 1vw;
+}
