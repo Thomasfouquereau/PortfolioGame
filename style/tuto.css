@@ -1,0 +1,51 @@
+/* tuto */
+
+.tuto{
+    z-index: 1000;
+    position: absolute;
+    background-color: #fff;
+    color: #4A4E69;
+    width: 22vw;
+    height: 8vw;
+    border-radius: 1.4vw;
+    margin-top: 4vw;
+    display: flex;
+    z-index: 2001;
+}
+
+.tuto-text{
+    margin:1vw 1.2vw 1.2vw 1.2vw;
+    line-height: 1.2vw;
+}
+
+#tuto-text__text{
+    font-size: 0.7vw;
+    margin-top: 0.5vw;
+    width: 15vw;
+}
+
+#tuto-img{
+    width: 2vw;
+    position: absolute;
+    top: 1vw;
+    right: 1.4vw;
+}
+
+#tuto-text__title{
+    font-size: 1.1vw;
+}
+
+#tuto-button{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    width: 4.5vw;
+    height: 1.5vw;
+    background-color: #3A86FF;
+    color: #fff;
+    border: 0;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-size: 0.6vw;
+}

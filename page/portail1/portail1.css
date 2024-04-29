@@ -1,0 +1,107 @@
+* {
+    font-family: 'Bungee', sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Avalon;
+    src: url(/font/Avalon.ttf);
+}
+
+body{
+    color: #fff;
+    overflow: hidden;
+}
+
+/* main */
+
+.container{
+    display: flex;
+}
+
+.portails{
+    background-color:#4A4E69;
+    width: 47vw;
+    border-radius:  0 5vw 5vw 0;
+}
+
+.container-portails{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-portail{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 27vw;
+    height: 40vh;
+    border-radius: 3vw;
+}
+
+.container-portail_img{
+    width: 15vw;
+    height: 15vw;
+}
+
+.container-portail_img_portail{
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    bottom: 1.5vw;
+    right: 1.5vw;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: calc(100vw - 47vw);
+}
+
+.developpement, .webdesign{
+    position: relative;
+}
+
+.arrow1{
+    position: absolute;
+    left: -19vw;
+    top: -1vw;
+    width: 15vw;
+}
+
+.arrow2{
+    position: absolute;
+    left: -23vw;
+    bottom: -1vw;
+    width: 15vw;
+}
+
+.webdesign-text, .developpement-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-developpement, .text-webdesign{
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: "Avalon";
+    color: #4A4E69;
+}
+
+.tuto{
+    right: 16vw;
+    top : 41%;
+    transform: translateY(-50%);
+    background-color: #4A4E69 !important;
+    color: #fff !important;
+}

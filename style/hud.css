@@ -1,0 +1,197 @@
+/* _____________________carte_____________________ */
+
+.nav-button {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A86FF;
+    width: 3vw;
+    font-size: 0.5vw;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px 10px;
+    border: 0px;
+    cursor: pointer;
+    z-index: 2001;
+}
+
+.nav-button__img {
+    width: 1.4vw;
+}
+
+.nav-carte {
+    color: #fff;
+}
+
+/* _____________________inventaire_____________________ */
+
+.inventaire-button {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A86FF;
+    width: 5vw;
+    font-size: 0.5vw;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px 10px;
+    border: 0px;
+    cursor: pointer;
+    z-index: 2001;
+}
+
+.inventaire-button__img {
+    width: 1.4vw;
+}
+
+.inventaire-button_text {
+    color: #fff;
+}
+
+/* _____________________tuto_____________________ */
+
+#open-tuto-button{
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+    width: 4.5vw;
+    height: 1.8vw;
+    background-color: #3A86FF;
+    color: #fff;
+    border: 0;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-size: 1vw;
+    line-height: 0;
+    z-index: 2001;
+}
+
+/* _____________________nav_____________________ */
+
+.nav-button__next{
+    position: absolute;
+    background-color: #3A86FF;
+    border-radius: 100px 0px 0px 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    width: 3vw;
+    height: 4vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-logo{
+    width: 2.5vw;
+}
+
+.nav-button__next:hover {
+    width: 3.5vw;
+    
+}
+
+.nav-button__previous {
+    position: absolute;
+    background-color: #3A86FF;
+    border-radius: 0px 100px 100px 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    width: 3vw;
+    height: 4vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-logo__previous{
+    transform: rotate(180deg);
+    width: 2.5vw;
+}
+
+.nav-button__previous:hover {
+    width: 3.5vw;
+}
+
+.nav-button__next-bis{
+    position: absolute;
+    background-color: #3A86FF;
+    border-radius: 0px 100px 100px 0px;
+    bottom: -13px;
+    left: 50vw;
+    rotate: -90deg;
+    width: 3vw;
+    height: 4vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.2s ease;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.nav-logo__bis{
+    transform: rotate(180deg); 
+    width: 2.5vw;
+}
+
+.nav-button__next-bis:hover {
+    height: 3.5vw;
+}
+
+.arrow-text{
+    position: absolute;
+    bottom: 6.5vw;
+    left: 60vw;
+    width: 14vw;
+    text-align: center;
+    line-height: 1vw;
+    font-size: 1vw;
+    rotate: 20deg;
+}
+
+.arrow-img{
+    position: absolute;
+    bottom: 1vw;
+    left: 56vw;
+    width: 10vw;
+}
+
+.ellipse-img{
+    position: absolute;
+    bottom: -0.5vw;
+    left: 47vw;
+    width: 8.6vw;
+    z-index: 99;
+}
+
+.nav-button__back{
+    position: absolute;
+    background-color: #3A86FF;
+    border-radius: 100px 0px 0px 100px;
+    top: -0.5vw;
+    rotate: -90deg;
+    right: 25vw;
+    width: 3vw;
+    height: 4vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-button__back:hover {
+    width: 3.5vw;
+    
+}

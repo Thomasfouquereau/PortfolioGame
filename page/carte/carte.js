@@ -85,5 +85,4 @@ buttonCarte.addEventListener('click', function() {
 openCarte.addEventListener('click', function() {
     cadreCarte.style.display = 'block';
     gsap.to("#cadreCarte", {y: 1000, duration: 0.6})
-
 });

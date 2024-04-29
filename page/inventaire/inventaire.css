@@ -1,0 +1,137 @@
+#cadreInventaire::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4a4e69a3;
+    z-index: -100;
+}
+
+#cadreInventaire{
+    width: 20vw;
+    height: 32vw;
+    padding: 1vw 2vw ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A86FF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1.3vw;
+    z-index: 2000;
+}
+
+#cadreInventaire::after{
+    content: "";
+    position: absolute;
+    width: 20vw;
+    height: 32vw;
+    padding: 1vw 2vw ;
+    border-radius: 1.3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3A86FF;
+    z-index: -100;
+}
+
+#inventaireContainer{
+    width: 17vw;
+    height: 30vw;
+    padding: 1vw 2vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1.3vw;
+    color: #4A4E69;
+}
+
+#inventaireInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17vw;
+    height: 3vw;
+    margin-bottom: 1vw;
+}
+
+#inventaireInfoText{
+    font-size: 1.7vw;
+}
+
+#inventaireClose{
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#inventaireCloseImg{
+    width: 2vw;
+}
+
+#inventaire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 17vw;
+    height: 25vw;
+    overflow-y: auto;
+}
+
+#inventaireSlot{
+    width: 5vw;
+    height: 5vw;
+    border: #4A4E69 0.3vw solid;
+    border-radius: 1vw;
+    margin: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#inventaireSlot img{
+    width: 3vw;
+    height: 3vw;
+}
+
+#inventaireSlot:hover{
+    background-color: #4a4e6923;
+}
+
+#inventaireSlotText{
+    font-size: 1.2vw;
+    position: absolute;
+    bottom: 0.5vw;
+    background-color:#3E4246 ;
+    color: #fff;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    left: -26vw;
+    bottom: 0;
+    width: 22vw;
+}
+
+#inventaireSlotTextTitle{
+    margin: 0;
+    margin-bottom: 1vw;
+    display: flex;
+}
+
+#inventaireSlotTextTitleText2{
+    color: #3A86FF;
+    margin: 0;
+    margin-left: 10px;
+}
+
+#inventaireSlotTextDescription{
+    font-size: 0.7vw;
+    font-style: italic;
+}
