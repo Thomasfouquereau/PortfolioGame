@@ -85,13 +85,13 @@ let buttonInventaire = document.getElementById('buttonInventaire');
 buttonInventaire.addEventListener('click', () => {
     if (cadreInventaire.style.display === 'none') {
              cadreInventaire.style.display = 'flex';
-        gsap.to(cadreInventaire, { y: 0, duration: 0.8})
+        gsap.to(cadreInventaire, { y: 0, duration: 0.57 })
         return;
     } else {
         setTimeout(function () {
             cadreInventaire.style.display = 'none';
         }, 400);
-        gsap.to(cadreInventaire, { y: -1500, duration: 0.8 })
+        gsap.to(cadreInventaire, { y: -1500, duration: 0.57 })
     }
 });
 
@@ -99,7 +99,7 @@ inventaireClose.addEventListener('click', () => {
     setTimeout(function () {
         cadreInventaire.style.display = 'none';
     }, 400);
-    gsap.to(cadreInventaire, { y: -1500, duration: 0.8 })
+    gsap.to(cadreInventaire, { y: -1500, duration: 0.57 })
 });
 
 

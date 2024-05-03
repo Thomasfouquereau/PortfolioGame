@@ -1,7 +1,7 @@
 /* _____________________carte_____________________ */
 
 .nav-button {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 40%;
     display: flex;
@@ -28,7 +28,7 @@
 /* _____________________inventaire_____________________ */
 
 .inventaire-button {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 50%;
     display: flex;
@@ -55,7 +55,7 @@
 /* _____________________tuto_____________________ */
 
 #open-tuto-button{
-    position: absolute;
+    position: fixed;
     top: 1vw;
     left: 1vw;
     width: 4.5vw;
@@ -74,7 +74,7 @@
 /* _____________________nav_____________________ */
 
 .nav-button__next{
-    position: absolute;
+    position: fixed;
     background-color: #3A86FF;
     border-radius: 100px 0px 0px 100px;
     top: 50%;
@@ -99,7 +99,7 @@
 }
 
 .nav-button__previous {
-    position: absolute;
+    position: fixed;
     background-color: #3A86FF;
     border-radius: 0px 100px 100px 0px;
     top: 50%;

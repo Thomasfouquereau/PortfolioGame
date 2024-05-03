@@ -1,0 +1,116 @@
+* {
+    font-family: 'Bungee', sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Avalon;
+    src: url(/font/Avalon.ttf);
+}
+
+body {
+    color: #fff;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #4A4E69;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3A86FF;
+    border-radius: 10px;
+    height: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a85ffbf;
+  }
+
+/* main */
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-52%);
+    z-index: -1;
+}
+
+.container-title{
+    position: absolute;
+    font-size: 7vw;
+    font-weight: 400;
+    top : 3vw;
+    left: 3vw;
+    color: #4A4E69;
+    font-family: Avalon;
+}
+
+.container-img {
+    height: 50vw;
+}
+
+.container-chronologie{
+    position: absolute;
+    width: 130vw;
+    height: 90vh;
+}
+
+.container-chronologie__card0,
+.container-chronologie__card1,
+.container-chronologie__card2,
+.container-chronologie__card3 {
+    position: fixed;
+    background-color:#4A4E69;
+    width: 22vw;
+    height: 15vw;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 1vw;
+    box-shadow: #4a4e6943 0px 3px 15px;
+}
+
+.container-chronologie-card__date-text{
+    font-size: 1.5vw;
+    margin-bottom:1vw;
+    line-height: 1.5vw;
+}
+
+.container-chronologie-card__date-img{
+    width: 9vw;
+    height: 9vw;
+}
+
+.container-chronologie__card0{
+    bottom: -4vw;
+    left: 16vw;
+}
+
+.container-chronologie__card2{
+    bottom: -2vw;
+    left: 91vw;
+}
+
+.container-chronologie__card1{
+    top: -1vw;
+    left: 57vw;
+}
+
+.container-chronologie__card3{
+    top: -3vw;
+    left: 130vw;
+}

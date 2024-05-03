@@ -1,0 +1,169 @@
+<!-- secondPage.html -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presentationPlus</title>
+    <link rel="stylesheet" href="./skills.css">
+    <link rel="stylesheet" href="../carte/carte.css">
+    <link rel="stylesheet" href="../../style/hud.css">
+    <link rel="stylesheet" href="../inventaire/inventaire.css">
+    <link rel="stylesheet" href="../../style/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <button class="nav-button" id="carteStart">
+            <img class="nav-button__img" src="../../asset/carte.svg">
+            <span class="nav-carte">carte</span>
+        </button>
+        <button class="inventaire-button" id="buttonInventaire">
+            <img class="inventaire-button__img" src="../../asset/inventaire white img.svg">
+            <span class="inventaire-button_text">inventaire</span>
+        </button>
+        <a class="nav-button__previous" href="../chronologie/chronologie.html">
+            <img class="nav-logo__previous" src="../../asset/arrow play for button.svg">
+        </a>
+        <a class="nav-button__next-bis">
+            <img class="nav-logo__bis" src="../../asset/arrow play for button.svg">
+        </a>
+    </nav>
+    <main>
+        <div class="container">
+            <h1 class="container-title">
+                compétences
+            </h1>
+            <div>
+                <div>
+                    <span>compétence </span>
+                </div>
+                <div>
+                    <span>compétence passive</span>
+                </div>
+            </div>
+            <div class="skills-menu">
+                <div class="skills-menu__header">
+                    <button><img></button>
+                    <span>developpement</span>
+                    <button><img></button>
+                </div>
+                <div class="skills-container">
+                    <div class="skills-container__left">
+                        <div class="skills-passive-container">
+                            <p class="skills-passive-container__name">compétence passive</p>
+                            <div class="skill-passive-skills-container">
+                                <div class="skill-passive">
+                                    <img class="skill__img" src="./asset/autodidact icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill-passive">
+                                    <img class="skill__img" src="./asset/adaptation icon.svg">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bonus-container">
+                            <p class="bonus-container__name">bonus</p>
+                            <div class="bonus-container__bonus">
+                                <p class="bonus__name">apprentissage booster</p>
+                                <p class="bonus__description">+50% de vitesse d'apprentissage d'une nouvelle
+                                    compétence</p>
+                            </div>
+                            <div class="bonus-container__bonus">
+                                <p class="bonus__name">apprentissage booster</p>
+                                <p class="bonus__description">+50% de vitesse d'apprentissage d'une nouvelle
+                                    compétence</p>
+                            </div>
+                            <div class="bonus-container__bonus">
+                                <p class="bonus__name">apprentissage booster</p>
+                                <p class="bonus__description">+50% de vitesse d'apprentissage d'une nouvelle
+                                    compétence</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-container__right">
+                        <p class="skills-container__name">compétence</p>
+                        <div class="skills-container__all">
+                            <div class="skills-container-all__html">
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/html icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/code icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill-passive">
+                                    <img class="skill__img" src="./asset/github icon.svg">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="skills-container-all__js">
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/js icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/ts icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/react icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/nextjs icon.svg">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="skills-container-all__css">
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/css icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/tailwind icon.svg">
+                                    <p></p>
+                                </div>
+                                <div class="skill">
+                                    <img class="skill__img" src="./asset/sass icon.svg">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-passive-link">
+                            <a class="skill-passive__link">
+                                <img class="skill__img" src="./asset/plus icon.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    </header>
+
+    <footer>
+        <div class="footer">
+            <button class="footer-button">
+                <img class="footer-button__img" src="../../asset/arrow for button.svg">
+                <span>pied de page</span>
+            </button>
+            <div class="footer-info">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../carte/carte.js"></script>
+<script src="../inventaire/inventaire.js"></script>
+<script src="./skills.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</html>
