@@ -40,37 +40,35 @@ body {
 
 .container {
     display: flex;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-52%);
+    position: relative;
     z-index: -1;
+    width: 100vw;
+    height: 99vh;
 }
 
 .container-title{
-    position: absolute;
-    font-size: 7vw;
+    position: fixed;
+    font-size: 6vw;
     font-weight: 400;
-    top : 3vw;
-    left: 3vw;
+    top : 5vw;
+    left: 4vw;
     color: #4A4E69;
     font-family: Avalon;
 }
 
-.container-img {
-    height: 50vw;
-}
-
 .container-chronologie{
-    position: absolute;
     width: 130vw;
-    height: 90vh;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: space-around;
 }
 
 .container-chronologie__card0,
 .container-chronologie__card1,
 .container-chronologie__card2,
 .container-chronologie__card3 {
-    position: fixed;
     background-color:#4A4E69;
     width: 22vw;
     height: 15vw;
@@ -81,7 +79,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 1vw;
-    box-shadow: #4a4e6943 0px 3px 15px;
+    box-shadow: #4a4e696f 0px 3px 25px;
 }
 
 .container-chronologie-card__date-text{
@@ -95,22 +93,13 @@ body {
     height: 9vw;
 }
 
-.container-chronologie__card0{
-    bottom: -4vw;
-    left: 16vw;
-}
-
-.container-chronologie__card2{
-    bottom: -2vw;
-    left: 91vw;
-}
-
-.container-chronologie__card1{
-    top: -1vw;
-    left: 57vw;
-}
-
-.container-chronologie__card3{
-    top: -3vw;
-    left: 130vw;
+.scroll-icon{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4vw;
+    cursor: pointer;
+    z-index: 2000;
+    width: auto;
+    height: 5vw;
 }

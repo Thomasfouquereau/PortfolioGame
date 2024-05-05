@@ -124,7 +124,7 @@
 }
 
 .nav-button__next-bis{
-    position: absolute;
+    position: fixed;
     background-color: #3A86FF;
     border-radius: 0px 100px 100px 0px;
     bottom: -13px;
@@ -176,7 +176,7 @@
 }
 
 .nav-button__back{
-    position: absolute;
+    position: fixed;
     background-color: #3A86FF;
     border-radius: 100px 0px 0px 100px;
     top: -0.5vw;
@@ -193,5 +193,4 @@
 
 .nav-button__back:hover {
     width: 3.5vw;
-    
 }

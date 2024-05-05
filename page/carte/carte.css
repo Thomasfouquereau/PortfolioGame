@@ -1,5 +1,5 @@
 #cadreCarte{
-    position: absolute;
+    position: fixed;
     background-color: #3A86FF;
     padding: 1vw;
     width: 70vw;

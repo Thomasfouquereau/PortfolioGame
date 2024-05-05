@@ -43,6 +43,13 @@ body{
     width: 27vw;
     height: 40vh;
     border-radius: 3vw;
+    cursor: pointer;
+    box-shadow: #3a85ffbd 0 0 3vw;
+    transition: cubic-bezier(.9,.3,.74,.67) 0.5s;
+}
+
+.container-portail:hover{
+    box-shadow: #3a85ffbd 0 0 5vw 2vw;
 }
 
 .container-portail_img{

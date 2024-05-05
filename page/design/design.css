@@ -1,0 +1,149 @@
+* {
+    font-family: 'Bungee', sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Avalon;
+    src: url(/font/Avalon.ttf);
+}
+
+body {
+    color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #4A4E69;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3A86FF;
+    border-radius: 10px;
+    height: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a85ffbf;
+  }
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 120vw;
+    height: 70vh;
+    margin-top: 10vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.container-developpement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.developpement-card {
+    background-color: #4A4E69;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    height: 100% ;
+    width: 80%;
+    margin-bottom: 2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.developpement-card__title{
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.developpement-card__description {
+    font-size: 1.5vw;
+    font-family: "Roboto", sans-serif;
+    padding: 2vw;
+    text-align: center;
+}
+
+.portail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vw;
+    width: 30vw;
+    margin-left: 5vw;
+    background-color: #4A4E69;
+    border-radius: 2vw;
+    position: relative;
+    cursor: pointer;
+    box-shadow: #3a85ffbd 0 0 3vw;
+    transition: cubic-bezier(.9,.3,.74,.67) 0.5s;
+}
+
+.portail:hover{
+    box-shadow: #3a85ffbd 0 0 5vw 2vw;
+}
+
+.portail-img{
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portail-img__plus{
+    width: 35vw;
+    height: 35vw;
+}
+
+.portail-img__portail{
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+}
+
+
+.scroll-icon{
+    position: fixed;
+    bottom: -0.2vw;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    z-index: 2000;
+    width: auto;
+    height: 6vw;
+}
