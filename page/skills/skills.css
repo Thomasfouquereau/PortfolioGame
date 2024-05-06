@@ -271,3 +271,20 @@ body {
     align-items: center;
     cursor: pointer;
 }
+
+
+/* entree */
+
+.entree{
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+}
+
+.entree-link__img{
+    width: 100%;
+    height: 100%;
+}

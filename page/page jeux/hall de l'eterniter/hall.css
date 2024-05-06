@@ -1,0 +1,359 @@
+* {
+    font-family: 'Bungee', sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Avalon;
+    src: url(/font/Avalon.ttf);
+}
+
+body {
+    color: #fff;
+}
+
+footer {
+    display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #e8e9f4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a8adb5;
+    border-radius: 10px;
+    height: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3a85ffbf;
+}
+
+.nav-button,
+.inventaire-button,
+#cadreCarte,
+#buttonCarte,
+#cadreInventaire::after {
+    background-color: #4A4E69 !important;
+}
+
+.container {
+    position: fixed;
+    left: 50%;
+    margin-top: 10vw;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 0;
+    padding: 2vw 5vw;
+    border-radius: 1vw;
+    background-color: #4a4e69;
+    z-index: 2001;
+}
+
+.container-sub-title{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.container-title{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.hall-de-l-eterniter {
+    width: 10000vw;
+    height: 99vh;
+    position: relative;
+}
+
+.hall-de-l-eterniter::after {
+    content: "";
+    position: absolute;
+    bottom: 15vw;
+    left: 0;
+    width: 10000vw;
+    height: 1px;
+    background-color: #4A4E69;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.hall__pilier1-1,
+.hall__pilier1-2,
+.hall__pilier1-3,
+.hall__pilier1-4,
+.hall__pilier1-5,
+.hall__pilier1-6,
+.hall__pilier1-7 {
+    height: 100.4%;
+    position: absolute;
+}
+
+.hall__pilier1-1 {
+    left: 0;
+}
+
+.hall__pilier1-2 {
+    left: 88vw;
+}
+
+.hall__pilier1-3 {
+    left: 276vw;
+}
+
+.hall__pilier1-4 {
+    left: 664vw;
+}
+
+.hall__pilier1-5 {
+    left: 1052vw;
+}
+
+.hall__pilier1-6 {
+    left: 1640vw;
+}
+
+.hall__pilier1-7 {
+    left: 2028vw;
+}
+
+.hall__pilier2-1,
+.hall__pilier2-2,
+.hall__pilier2-3,
+.hall__pilier2-4,
+.hall__pilier2-5,
+.hall__pilier2-6,
+.hall__pilier2-7,
+.hall__pilier2-8,
+.hall__pilier2-9,
+.hall__pilier2-10,
+.hall__pilier2-11,
+.hall__pilier2-12,
+.hall__pilier2-13,
+.hall__pilier2-14 {
+    height: 90%;
+    position: absolute;
+    top: 0;
+}
+
+.hall__pilier2-1 {
+    left: 155vw;
+}
+
+.hall__pilier2-2 {
+    left: 361vw;
+}
+
+.hall__pilier2-3 {
+    left: 489vw;
+}
+
+.hall__pilier2-4 {
+    left: 647vw;
+}
+
+.hall__pilier2-5 {
+    left: 785vw;
+}
+
+.hall__pilier2-6 {
+    left: 953vw;
+}
+
+.hall__pilier2-7 {
+    left: 1200vw;
+}
+
+.hall__pilier2-8 {
+    left: 1237vw;
+}
+
+.hall__pilier2-9 {
+    left: 1425vw;
+}
+
+.hall__pilier2-10 {
+    left: 1613vw;
+}
+
+.hall__pilier2-11 {
+    left: 1901vw;
+}
+
+.hall__pilier2-12 {
+    left: 1989vw;
+}
+
+.hall__pilier2-13 {
+    left: 2277vw;
+}
+
+.hall__pilier2-14 {
+    left: 2565vw;
+}
+
+.hall__pilier3-1,
+.hall__pilier3-2,
+.hall__pilier3-3,
+.hall__pilier3-4,
+.hall__pilier3-5,
+.hall__pilier3-6,
+.hall__pilier3-7,
+.hall__pilier3-8,
+.hall__pilier3-9 {
+    height: 80%;
+    position: absolute;
+    top: 0;
+}
+
+.hall__pilier3-1 {
+    left: 15vw;
+}
+
+.hall__pilier3-2 {
+    left: 303vw;
+}
+
+.hall__pilier3-3 {
+    left: 541vw;
+}
+
+.hall__pilier3-4 {
+    left: 739vw;
+}
+
+.hall__pilier3-5 {
+    left: 867vw;
+}
+
+.hall__pilier3-6 {
+    left: 1155vw;
+}
+
+.hall__pilier3-7 {
+    left: 1273vw;
+}
+
+.hall__pilier3-8 {
+    left: 1531vw;
+}
+
+.hall__pilier3-9 {
+    left: 1719vw;
+}
+
+.hall__pilier4-1,
+.hall__pilier4-2,
+.hall__pilier4-3,
+.hall__pilier4-4,
+.hall__pilier4-5,
+.hall__pilier4-6,
+.hall__pilier4-7,
+.hall__pilier4-8,
+.hall__pilier4-9 {
+    height: 69.5%;
+    position: absolute;
+    top: 0;
+}
+
+.hall__pilier4-1 {
+    left: 67vw;
+}
+
+.hall__pilier4-2 {
+    left: 255vw;
+}
+
+.hall__pilier4-3 {
+    left: 443vw;
+}
+
+.hall__pilier4-4 {
+    left: 621vw;
+}
+
+.hall__pilier4-5 {
+    left: 809vw;
+}
+
+.hall__pilier4-6 {
+    left: 997vw;
+}
+
+.hall__pilier4-7 {
+    left: 1190vw;
+}
+
+.hall__pilier4-8 {
+    left: 1388vw;
+}
+
+.hall__pilier4-9 {
+    left: 1576vw;
+}
+
+.container-hall__parchemin1 {
+    position: absolute;
+    bottom: 8vw;
+    left: 90vw;
+    width: 4vw;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.hall__parchemin1 {
+    height: 100%;
+    width: 100%;
+}
+
+.parchemin__description-container {
+    position: absolute;
+    left: -41vw;
+    text-align: center;
+    top: 0;
+    padding: 1.5vw 2vw;
+    width: 30vw;
+    border-radius: 1vw;
+    background-color: #292a319b;
+}
+
+.parchemin__description {
+    font-size: 2vw;
+}
+
+.container-hall__parchemin2 {
+    position: absolute;
+    bottom: 18.5vw;
+    left: 2291vw;
+    width: 3.4vw;
+    height: 14vh;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.hall__portail-2{
+    position: absolute;
+    bottom: 12vw;
+    left: 2290vw;
+    width: 20vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.hall__lampe{
+    position: absolute;
+    bottom: 15vw;
+    left: 2311vw;
+    width: 3vw;
+    height: auto;
+}
