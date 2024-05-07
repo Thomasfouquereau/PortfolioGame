@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>presentationPlus</title>
     <link rel="stylesheet" href="./developpement.css">
+    <link rel="stylesheet" href="../almanach des portail/almanach.css">
     <link rel="stylesheet" href="../carte/carte.css">
     <link rel="stylesheet" href="../../style/hud.css">
     <link rel="stylesheet" href="../inventaire/inventaire.css">
@@ -40,6 +41,25 @@
             <img class="nav-logo__bis" src="../../asset/arrow play for button.svg">
         </a>
     </nav>
+
+    <div class="container-livre" id="almanach">
+        <div class="livre">
+            <div id="livre-container">
+                <div class="pageLeft"></div>
+                <div class="pageRight"></div>
+                <button id="nextPageButton" class="livre__button">
+                    <img class="livre__button__img" src="../../asset/arrow play for button.svg">
+                </button>
+                <button id="previousPageButton" class="livre__button">
+                    <img class="livre__button__img" src="../../asset/arrow play for button.svg">
+                </button>
+                <button id="closeBookButton" class="livre__button">
+                    <img class="livre__button__img" src="../../asset/carte close.svg">
+                </button>
+            </div>
+        </div>
+    </div>
+
     <main>
         <div class="container">
             <div class="container-developpement">
@@ -93,6 +113,7 @@
 </body>
 <script src="../carte/carte.js"></script>
 <script src="../inventaire/inventaire.js"></script>
+<script src="../almanach des portail/almanach.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 </html>

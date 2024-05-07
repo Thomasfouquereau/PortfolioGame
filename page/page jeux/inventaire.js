@@ -46,7 +46,7 @@ let inventaireSlot2 = document.createElement('div');
 inventaireSlot2.setAttribute('id', 'inventaireSlot');
 let inventaireSlot2Img = document.createElement('img');
 inventaireSlot2Img.setAttribute('id', 'inventaireSlotImg');
-inventaireSlot2Img.setAttribute('src', '../../../asset/ruby.png');
+inventaireSlot2Img.setAttribute('src', '../../../asset/ruby.svg');
 let inventaireSlot2Text = document.createElement('div');
 inventaireSlot2Text.setAttribute('id', 'inventaireSlotText');
 let inventaireSlot2TextTitle = document.createElement('div');
@@ -66,10 +66,36 @@ inventaireSlot2TextTitle.appendChild(inventaireSlot2TextTitleText2);
 inventaireSlot2Text.appendChild(inventaireSlot2TextTitle);
 inventaireSlot2Text.appendChild(inventaireSlot2TextDescription);
 
+let inventaireSlot3 = document.createElement('div');
+inventaireSlot3.setAttribute('id', 'inventaireSlot');
+let inventaireSlot3Img = document.createElement('img');
+inventaireSlot3Img.setAttribute('id', 'inventaireSlotImg');
+inventaireSlot3Img.setAttribute('src', '../../../asset/livre.svg');
+let inventaireSlot3Text = document.createElement('div');
+inventaireSlot3Text.setAttribute('id', 'inventaireSlotText');
+let inventaireSlot3TextTitle = document.createElement('div');
+inventaireSlot3TextTitle.setAttribute('id', 'inventaireSlotTextTitle');
+let inventaireSlot3TextTitleText = document.createElement('p');
+inventaireSlot3TextTitleText.setAttribute('id', 'inventaireSlotTextTitleText');
+inventaireSlot3TextTitleText.textContent = 'almanach des ';
+let inventaireSlot3TextTitleText2 = document.createElement('p');
+inventaireSlot3TextTitleText2.setAttribute('id', 'inventaireSlotTextTitleText2');
+inventaireSlot3TextTitleText2.textContent = 'portail';
+let inventaireSlot3TextDescription = document.createElement('p');
+inventaireSlot3TextDescription.setAttribute('id', 'inventaireSlotTextDescription');
+inventaireSlot3TextDescription.textContent = 'pierre précieuse';
+
+inventaireSlot3TextTitle.appendChild(inventaireSlot3TextTitleText);
+inventaireSlot3TextTitle.appendChild(inventaireSlot3TextTitleText2);
+inventaireSlot3Text.appendChild(inventaireSlot3TextTitle);
+inventaireSlot3Text.appendChild(inventaireSlot3TextDescription);
+
 inventaireSlot1.appendChild(inventaireSlot1Img);
 inventaireSlot2.appendChild(inventaireSlot2Img);
+inventaireSlot3.appendChild(inventaireSlot3Img);
 inventaire.appendChild(inventaireSlot1);
 inventaire.appendChild(inventaireSlot2);
+inventaire.appendChild(inventaireSlot3);
 
 inventaireInfo.appendChild(inventaireInfoText);
 inventaireInfo.appendChild(inventaireClose);
@@ -80,6 +106,7 @@ inventaireContainer.appendChild(inventaire);
 cadreInventaire.appendChild(inventaireContainer);
 
 document.body.appendChild(cadreInventaire);
+
 cadreInventaire.style.display = 'none';
 let buttonInventaire = document.getElementById('buttonInventaire');
 buttonInventaire.addEventListener('click', () => {
@@ -114,7 +141,7 @@ inventaireSlot1.addEventListener('mouseout', () => {
 });
 
 inventaireSlot1.addEventListener('click', () => {
-    window.location.href = "../../page/acceuil/acceuil.html";
+    window.location.href = "../../acceuil/acceuil.html"
 });
 
 inventaireSlot2.addEventListener('mouseover', () => {
@@ -124,3 +151,27 @@ inventaireSlot2.addEventListener('mouseover', () => {
 inventaireSlot2.addEventListener('mouseout', () => {
     inventaireSlot2.removeChild(inventaireSlot2Text);
 });
+
+inventaireSlot3.addEventListener('mouseover', () => {
+    inventaireSlot3.appendChild(inventaireSlot3Text);
+});
+
+inventaireSlot3.addEventListener('mouseout', () => {
+    inventaireSlot3.removeChild(inventaireSlot3Text);
+});
+
+const almanach = document.getElementById('almanach');
+inventaireSlot3.addEventListener('click', () => {
+
+    almanach.style.display = 'flex';
+
+
+    setTimeout(function () {
+        cadreInventaire.style.display = 'none';
+    }, 400);
+    gsap.to(cadreInventaire, { y: -1500, duration: 0.57 });
+});
+function closeBook() {
+    almanachs.style.display = 'none';
+}
+document.getElementById('closeBookButton').addEventListener('click', closeBook);

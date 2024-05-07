@@ -32,6 +32,7 @@ buttonTerminer.addEventListener('click', () => {
 });
 
 tutoButtonOpen.addEventListener('click', () => {
+ 
     if (tuto.style.display === 'none') {
         tuto.style.display = 'block'; gsap.to(tuto, { y: 0, duration: 0.8 })
         return;

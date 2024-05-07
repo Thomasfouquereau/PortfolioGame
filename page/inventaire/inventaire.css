@@ -98,8 +98,8 @@
 }
 
 #inventaireSlot img{
-    width: 3vw;
-    height: 3vw;
+    width: 80%;
+    height: 80%;
 }
 
 #inventaireSlot:hover{

@@ -10,7 +10,7 @@
     background-color: #3A86FF;
     width: 3vw;
     font-size: 0.5vw;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 1vw 1vw;
     padding: 5px 10px;
     border: 0px;
     cursor: pointer;
@@ -37,7 +37,7 @@
     background-color: #3A86FF;
     width: 5vw;
     font-size: 0.5vw;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 1vw 1vw;
     padding: 5px 10px;
     border: 0px;
     cursor: pointer;
@@ -76,7 +76,7 @@
 .nav-button__next{
     position: fixed;
     background-color: #3A86FF;
-    border-radius: 100px 0px 0px 100px;
+    border-radius: 2vw 0px 0px 2vw;
     top: 50%;
     transform: translateY(-50%);
     right: 0px;
@@ -101,7 +101,7 @@
 .nav-button__previous {
     position: fixed;
     background-color: #3A86FF;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 0px 2vw 2vw 0px;
     top: 50%;
     transform: translateY(-50%);
     left: 0px;
@@ -126,7 +126,7 @@
 .nav-button__next-bis{
     position: fixed;
     background-color: #3A86FF;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 0px 2vw 2vw 0px;
     bottom: -13px;
     left: 50vw;
     rotate: -90deg;
@@ -178,7 +178,7 @@
 .nav-button__back{
     position: fixed;
     background-color: #3A86FF;
-    border-radius: 100px 0px 0px 100px;
+    border-radius: 2vw 0px 0px 2vw;
     top: -0.5vw;
     rotate: -90deg;
     right: 25vw;

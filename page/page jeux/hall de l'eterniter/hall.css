@@ -63,6 +63,7 @@ footer {
 .container-sub-title{
     font-size: 1vw;
     font-weight: 400;
+    font-style: italic;
 }
 
 .container-title{
@@ -71,7 +72,7 @@ footer {
 }
 
 .hall-de-l-eterniter {
-    width: 10000vw;
+    width: 5000vw;
     height: 99vh;
     position: relative;
 }
@@ -79,9 +80,9 @@ footer {
 .hall-de-l-eterniter::after {
     content: "";
     position: absolute;
-    bottom: 15vw;
+    top: 68.5%;
     left: 0;
-    width: 10000vw;
+    width: 100%;
     height: 1px;
     background-color: #4A4E69;
     opacity: 0.2;
@@ -94,9 +95,17 @@ footer {
 .hall__pilier1-4,
 .hall__pilier1-5,
 .hall__pilier1-6,
-.hall__pilier1-7 {
+.hall__pilier1-7,
+.hall__pilier1-8,
+.hall__pilier1-9,
+.hall__pilier1-10,
+.hall__pilier1-11,
+.hall__pilier1-12,
+.hall__pilier1-13
+{
     height: 100.4%;
     position: absolute;
+    z-index: 1400;
 }
 
 .hall__pilier1-1 {
@@ -127,6 +136,30 @@ footer {
     left: 2028vw;
 }
 
+.hall__pilier1-8 {
+    left: 2416vw;
+}
+
+.hall__pilier1-9 {
+    left: 2804vw;
+}
+
+.hall__pilier1-10 {
+    left: 3192vw;
+}
+
+.hall__pilier1-11 {
+    left: 3580vw;
+}
+
+.hall__pilier1-12 {
+    left: 3968vw;
+}
+
+.hall__pilier1-13 {
+    left: 4356vw;
+}
+
 .hall__pilier2-1,
 .hall__pilier2-2,
 .hall__pilier2-3,
@@ -140,10 +173,17 @@ footer {
 .hall__pilier2-11,
 .hall__pilier2-12,
 .hall__pilier2-13,
-.hall__pilier2-14 {
+.hall__pilier2-14,
+.hall__pilier2-15,
+.hall__pilier2-16,
+.hall__pilier2-17,
+.hall__pilier2-18,
+.hall__pilier2-19,
+.hall__pilier2-20 {
     height: 90%;
     position: absolute;
     top: 0;
+    z-index: 1300;
 }
 
 .hall__pilier2-1 {
@@ -202,6 +242,30 @@ footer {
     left: 2565vw;
 }
 
+.hall__pilier2-15 {
+    left: 2853vw;
+}
+
+.hall__pilier2-16 {
+    left: 3141vw;
+}
+
+.hall__pilier2-17 {
+    left: 3429vw;
+}
+
+.hall__pilier2-18 {
+    left: 3717vw;
+}
+
+.hall__pilier2-19 {
+    left: 4105vw;
+}
+
+.hall__pilier2-20 {
+    left: 4593vw;
+}
+
 .hall__pilier3-1,
 .hall__pilier3-2,
 .hall__pilier3-3,
@@ -210,10 +274,19 @@ footer {
 .hall__pilier3-6,
 .hall__pilier3-7,
 .hall__pilier3-8,
-.hall__pilier3-9 {
+.hall__pilier3-9,
+.hall__pilier3-10,
+.hall__pilier3-11,
+.hall__pilier3-12,
+.hall__pilier3-13,
+.hall__pilier3-14,
+.hall__pilier3-15,
+.hall__pilier3-16,
+.hall__pilier3-17 {
     height: 80%;
     position: absolute;
     top: 0;
+    z-index: 1200;
 }
 
 .hall__pilier3-1 {
@@ -252,6 +325,40 @@ footer {
     left: 1719vw;
 }
 
+.hall__pilier3-10 {
+    left: 1807vw;
+}
+
+.hall__pilier3-11 {
+    left: 2095vw;
+}
+
+.hall__pilier3-12 {
+    left: 2193vw;
+}
+
+.hall__pilier3-13 {
+    left: 2471vw;
+}
+
+.hall__pilier3-14 {
+    left: 2759vw;
+}
+
+.hall__pilier3-15 {
+    left: 3047vw;
+}
+
+.hall__pilier3-16 {
+    left: 3535vw;
+}
+
+.hall__pilier3-17 {
+    left: 4523vw;
+}
+
+
+
 .hall__pilier4-1,
 .hall__pilier4-2,
 .hall__pilier4-3,
@@ -260,10 +367,21 @@ footer {
 .hall__pilier4-6,
 .hall__pilier4-7,
 .hall__pilier4-8,
-.hall__pilier4-9 {
+.hall__pilier4-9,
+.hall__pilier4-10,
+.hall__pilier4-11,
+.hall__pilier4-12,
+.hall__pilier4-13,
+.hall__pilier4-14,
+.hall__pilier4-15,
+.hall__pilier4-16,
+.hall__pilier4-17,
+.hall__pilier4-18,
+.hall__pilier4-19 {
     height: 69.5%;
     position: absolute;
     top: 0;
+    z-index: 1100;
 }
 
 .hall__pilier4-1 {
@@ -302,23 +420,50 @@ footer {
     left: 1576vw;
 }
 
-.container-hall__parchemin1 {
-    position: absolute;
-    bottom: 8vw;
-    left: 90vw;
-    width: 4vw;
-    height: 12vh;
-    cursor: pointer;
+.hall__pilier4-10 {
+    left: 1764vw;
 }
 
-.hall__parchemin1 {
-    height: 100%;
-    width: 100%;
+.hall__pilier4-11 {
+    left: 1952vw;
 }
+
+.hall__pilier4-12 {
+    left: 2140vw;
+}
+
+.hall__pilier4-13 {
+    left: 2428vw;
+}
+
+.hall__pilier4-14 {
+    left: 2716vw;
+}
+
+.hall__pilier4-15 {
+    left: 2904vw;
+}
+
+.hall__pilier4-16 {
+    left: 3292vw;
+}
+
+.hall__pilier4-17 {
+    left: 3680vw;
+}
+
+.hall__pilier4-18 {
+    left: 4268vw;
+}
+
+.hall__pilier4-19 {
+    left: 4756vw;
+}
+
 
 .parchemin__description-container {
     position: absolute;
-    left: -41vw;
+    left: -37vw;
     text-align: center;
     top: 0;
     padding: 1.5vw 2vw;
@@ -328,13 +473,58 @@ footer {
 }
 
 .parchemin__description {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: italic;
 }
+
+/* _______________________ */
+
+.container-hall__parchemin1 {
+    position: absolute;
+    bottom: 8vw;
+    left: 90vw;
+    width: 4vw;
+    height: 12vh;
+    cursor: pointer;
+    z-index: 2500;
+}
+
+.hall__parchemin1 {
+    height: 100%;
+    width: 100%;
+}
+
+/* _______________________ */
 
 .container-hall__parchemin2 {
     position: absolute;
+    bottom: 18.2vw;
+    left: 1157vw;
+    width: 3.4vw;
+    height: 14vh;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.hall__portail-1{
+    position: absolute;
+    top: calc(69.5% - 20vw);
+    left: 1132vw;
+    width: 20vw;
+    height: auto;
+    cursor: pointer;
+}
+
+/* _______________________ */
+
+.container-hall__parchemin3 {
+    position: absolute;
     bottom: 18.5vw;
-    left: 2291vw;
+    left: 2491vw;
     width: 3.4vw;
     height: 14vh;
     cursor: pointer;
@@ -343,8 +533,8 @@ footer {
 
 .hall__portail-2{
     position: absolute;
-    bottom: 12vw;
-    left: 2290vw;
+    top: calc(69.5% - 20vw);
+    left: 2490vw;
     width: 20vw;
     height: auto;
     cursor: pointer;
@@ -352,8 +542,32 @@ footer {
 
 .hall__lampe{
     position: absolute;
-    bottom: 15vw;
-    left: 2311vw;
+    top: calc(68% - 3vw );
+    left: 2511vw;
     width: 3vw;
     height: auto;
+    border-radius: 1vw;
+    cursor: pointer;
+    color: #fff7001f;
+}
+
+/* _______________________ */
+
+.container-hall__parchemin4 {
+    position: absolute;
+    bottom: 18.5vw;
+    left: 4756vw;
+    width: 3.4vw;
+    height: 14vh;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.hall__portail-3{
+    position: absolute;
+    top: calc(69.5% - 20vw);
+    left: 4775vw;
+    width: 20vw;
+    height: auto;
+    cursor: pointer;
 }

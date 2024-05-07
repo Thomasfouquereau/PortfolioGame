@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>presentationPlus</title>
     <link rel="stylesheet" href="./skills.css">
+    <link rel="stylesheet" href="../almanach des portail/almanach.css">
     <link rel="stylesheet" href="../carte/carte.css">
     <link rel="stylesheet" href="../../style/hud.css">
     <link rel="stylesheet" href="../inventaire/inventaire.css">
@@ -41,15 +42,34 @@
         </a>
     </nav>
     <main>
+        <div class="container-livre" id="almanach">
+            <div class="livre">
+                <div id="livre-container">
+                    <div class="pageLeft"></div>
+                    <div class="pageRight"></div>
+                    <button id="nextPageButton" class="livre__button">
+                        <img class="livre__button__img" src="../../asset/arrow play for button.svg">
+                    </button>
+                    <button id="previousPageButton" class="livre__button">
+                        <img class="livre__button__img" src="../../asset/arrow play for button.svg">
+                    </button>
+                    <button id="closeBookButton" class="livre__button">
+                        <img class="livre__button__img" src="../../asset/carte close.svg">
+                    </button>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <h1 class="container-title">
                 compétences
             </h1>
             <div class="skills-menu">
                 <div class="skills-menu__header">
-                    <button class="skills-menu-name__previous"><img class="previous__img" src="../../asset/arrow play for button.svg"></button>
+                    <button class="skills-menu-name__previous"><img class="previous__img"
+                            src="../../asset/arrow play for button.svg"></button>
                     <span class="skills-menu-name">developpement</span>
-                    <button class="skills-menu-name__next"><img class=" next__img" src="../../asset/arrow play for button.svg"></button>
+                    <button class="skills-menu-name__next"><img class=" next__img"
+                            src="../../asset/arrow play for button.svg"></button>
                 </div>
                 <div class="skills-container">
                     <div class="skills-container__left">
@@ -132,7 +152,7 @@
                 </div>
             </div>
         </div>
-        
+
     </main>
     <div class="entree">
         <a class="entree-link" href="../page jeux/hall de l'eterniter/hall.html">
@@ -153,6 +173,7 @@
     </footer>
 </body>
 <script src="../carte/carte.js"></script>
+<script src="../almanach des portail/almanach.js"></script>
 <script src="../inventaire/inventaire.js"></script>
 <script src="./skills.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

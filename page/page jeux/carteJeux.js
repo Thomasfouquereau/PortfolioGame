@@ -6,7 +6,7 @@ carteFond.setAttribute('id', 'carteFond');
 
 let carte = document.createElement('img');
 carte.setAttribute('id', 'carte');
-carte.setAttribute('src', '../../../asset/carte etage 1.svg');
+carte.setAttribute('src', '../../../asset/carte game hall.svg');
 carte.setAttribute('alt', 'carte etage 1');
 
 let carteLegende = document.createElement('div');
