@@ -13,7 +13,6 @@ body{
     color: #fff;
     margin-left: 6vw;
     margin-right: 6vw;
-    overflow: hidden;
 }
 
 /* main */
@@ -26,7 +25,7 @@ body{
 
 .container-title{
     position: absolute;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 400;
     top : 8vw;
     right: 5vw;
@@ -35,9 +34,10 @@ body{
 
 .container-paragraphe{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-weight: 400;
     top : 23vw;
     right: 5vw;
     line-height: 1.5vw;
+    font-family: 'Roboto', sans-serif;
 }

@@ -2,9 +2,9 @@ const skills = [
     { name: "skill autodidact",lvl:"lvl 10 ", description: "Description de skill html" },
     { name: "skill adaptation",lvl:"lvl 7", description: "Description de skill photoshop" },
 
-    { name: "skill html",lvl:"lvl 9", description: "Skill html LVL 2 ajoute une resitence" },
+    { name: "skill html",lvl:"lvl 9", description: "+50 % de référencement grâce à la compétence passive Sémantique renforcer" },
     { name: "skill code",lvl:"lvl 7", description: "Description de skill photoshop" },
-    { name: "skill github",lvl:"lvl 6", description: "Description de skill figma" },
+    { name: "skill github",lvl:"lvl 6", description: "Malus de 25 % en recherche de nom de repo github / + 50 % recherche de nom de repo github grâce à l'IA" },
 
     { name: "skill js",lvl:"lvl 6", description: "Description de skill js" },
     { name: "skill react",lvl:"lvl 7", description: "Description de skill react" },
