@@ -542,13 +542,11 @@ footer {
 
 .hall__lampe{
     position: absolute;
-    top: calc(68% - 3vw );
+    top: calc(68% - 4.7vw );
     left: 2511vw;
     width: 3vw;
     height: auto;
-    border-radius: 1vw;
     cursor: pointer;
-    color: #fff7001f;
 }
 
 /* _______________________ */

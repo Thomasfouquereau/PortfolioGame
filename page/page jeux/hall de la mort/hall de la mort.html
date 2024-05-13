@@ -1,0 +1,157 @@
+<!-- secondPage.html -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presentationPlus</title>
+    <link rel="stylesheet" href="./hall de la mort.css">
+    <link rel="stylesheet" href="../../carte/carte.css">
+    <link rel="stylesheet" href="../../../style/hud.css">
+    <link rel="stylesheet" href="../../inventaire/inventaire.css">
+    <!-- <link rel="stylesheet" href="../../../style/footer.css"> -->
+    <link rel="stylesheet" href="../almanach des portail/almanach.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <button class="nav-button" id="carteStart">
+            <img class="nav-button__img" src="../../../asset/carte.svg">
+            <span class="nav-carte">carte</span>
+        </button>
+        <button class="inventaire-button" id="buttonInventaire">
+            <img class="inventaire-button__img" src="../../../asset/inventaire white img.svg">
+            <span class="inventaire-button_text">inventaire</span>
+        </button>
+
+    </nav>
+
+    <div class="container-livre" id="almanach">
+        <div class="livre">
+            <div id="livre-container">
+                <div class="pageLeft"></div>
+                <div class="pageRight"></div>
+                <button id="nextPageButton" class="livre__button">
+                    <img class="livre__button__img" src="../../../asset/arrow play for button.svg">
+                </button>
+                <button id="previousPageButton" class="livre__button">
+                    <img class="livre__button__img" src="../../../asset/arrow play for button.svg">
+                </button>
+                <button id="closeBookButton" class="livre__button">
+                    <img class="livre__button__img" src="../../../asset/carte close.svg">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <span class="container-sub-title">découverte</span>
+        <h1 class="container-title">
+            hall de la mort
+        </h1>
+    </div>
+
+    <main>
+
+        <div class="hall-de-la-mort">
+            <div class="hall-container">
+                <div class="container-hall__parchemin1" id="hall__parchemin">
+                    <img class="hall__parchemin" src="../asset/parchemin noir 1.svg" alt="parchemin 1">
+                </div>
+                <img class="hall__portail-1" src="../asset/structure portail noir.svg">
+                <img class="hall__lampe" id="lampe1" src="../asset/lampe.svg">
+            </div>
+            <div class="hall-container">
+                <div class="container-hall__parchemin2" id="hall__parchemin">
+                    <img class="hall__parchemin" src="../asset/parchemin noir 2.svg" alt="parchemin 2">
+                </div>
+                <p class="ecriture">
+                    Les lumières vacillantes des
+                    réverbères jettent des éclats
+                    fantomatiques sur des murs
+                    couverts de moisissures,
+                    révélant des graffitis
+                    macabres et des symboles
+                    ésotériques qui semblent
+                    évoquer d'anciennes
+                    malédictions.
+                </p>
+                <img class="hall__lampe2" id="lampe2" src="../asset/lampe.svg">
+            </div>
+            <div class="hall-container">
+                <div class="container-hall__parchemin3" id="hall__parchemin">
+                    <img class="hall__parchemin" src="../asset/parchemin noir 3.svg" alt="parchemin 3">
+                </div>
+                <img class="hall__symbole" src="../asset/symbole.svg">
+                <img class="hall__lampe3" id="lampe3" src="../asset/lampe.svg">
+            </div>
+            <div class="hall-container">
+                <div class="container-hall__parchemin4" id="hall__parchemin">
+                    <img class="hall__parchemin" src="../asset/parchemin noir 2.svg" alt="parchemin 4">
+                </div>
+                <img class="faille" src="../asset/faille.svg">
+                <img class="hall__lampe4" id="lampe4" src="../asset/lampe.svg">
+            </div>
+            <div>
+                <div class="container-hall__parchemin5" id="hall__parchemin">
+                    <img class="hall__parchemin" src="../asset/parchemin noir 2.svg" alt="parchemin 5">
+                </div>
+                <img class="faille" src="../asset/faille.svg">
+                <img class="hall__lampe5" id="lampe5" src="../asset/lampe.svg">
+            </div>
+            <div>
+                <div class="container-hall__parchemin6" id="hall__parchemin">
+                    <img class="hall__parchemin" src="../asset/parchemin noir 2.svg" alt="parchemin 6">
+                </div>
+                <img class="hall__lampe6" id="lampe6" src="../asset/lampe.svg">
+            </div>
+            <div>
+                <p class="ecriture-sang">
+                    je n'ai plus de feuilles et plus d'encre pour écrire donc j'écris avec ce que je peux je vais être
+                    bref</br>
+                    je suis bloqué ici depuis plus de 200 jours comme je l'ai dit plus tôt je ne ressens ni la faim ni
+                    la soif je ne suis pas seule même si j'ai l'impression de l'être mets une chose est sûre ce portail
+                    et la seule sortie possible j'ai froid dans le dos rien de le voir les différents de tout ce que
+                    j'ai vu jusqu'à maintenant il produit une chaleur intense mets sur tous les penchés vers la gauche
+                    c'est le seul portail dans ce genre qui a été découverte jusque maintenant et c'est moi qu'il a
+                    découvert je vais me reposer et rentrer dedans </br>
+                    je voulais être bref note 5?
+                </p>
+                <img class="hall__portail-2" src="../asset/structure portail noir rouge.svg">
+                <img class="hall__lampe7" id="lampe7" src="../asset/lampe.svg">
+            </div>
+
+        </div>
+
+    </main>
+    </header>
+
+    <footer>
+        <div class="footer">
+            <button class="footer-button">
+                <img class="footer-button__img" src="../../../asset/arrow for button.svg">
+                <span>pied de page</span>
+            </button>
+            <div class="footer-info">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../carteJeux.js"></script>
+<script src="../inventaire.js"></script>
+<script src="../almanach des portail/almanach.js"></script>
+<script src="./hall de la mort.js"></script>
+
+</html>

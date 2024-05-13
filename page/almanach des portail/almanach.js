@@ -7,7 +7,7 @@ const bookData = [
         "Couleur du portail": "",
         "Date de découverte": "",
         "Position géographique": "",
-        "description": "",
+        "description": " go page 4",
         "numero de page": 0
     },
     {
@@ -41,7 +41,7 @@ const bookData = [
         "numero de page": 3
     },
     {
-        "titre": "Le Hall du retour",
+        "titre": "Le Hall du Retour",
         "img": "../almanach des portail/asset/structure portail bleu.svg",
         "Niveau de menace": "Sûr",
         "Couleur du portail": "Bleu",
@@ -51,7 +51,7 @@ const bookData = [
         "numero de page": 4
     },
     {
-        "titre": "Le Hall des enfers",
+        "titre": "Le Hall des Enfers",
         "img": "../almanach des portail/asset/structure portail rouge.svg",
         "Niveau de menace": "Keter",
         "Couleur du portail": "Rouge foncé",
@@ -61,28 +61,58 @@ const bookData = [
         "numero de page": 5
     },
     {
-        "titre": "Le Hall du retour",
-        "img": "../almanach des portail/asset/structure portail bleu.svg",
+        "titre": "lE Hall dE La FiN",
+        "img": "../almanach des portail/asset/structure portail jaune.svg",
         "Niveau de menace": "Sûr",
-        "Couleur du portail": "Bleu",
-        "Date de découverte": "14/07/2000",
+        "Couleur du portail": "Jaune",
+        "Date de découverte": "24/11/2023",
         "Position géographique": "Hall de l’eterniter",
         "description": "Description de l'élément",
         "numero de page": 6
     },
     {
-        "titre": "Le Hall des enfers",
-        "img": "../almanach des portail/asset/structure portail rouge.svg",
-        "Niveau de menace": "Keter",
-        "Couleur du portail": "Rouge foncé",
+        "titre": "SANS RETOUR",
+        "img": "../almanach des portail/asset/structure portail noir.svg",
+        "Niveau de menace": "Neutralisé",
+        "Couleur du portail": "Noir",
         "Date de découverte": "24/08/2011",
-        "Position géographique": "Hall de l’eterniter",
+        "Position géographique": "???",
         "description": "Description de l'élément",
         "numero de page": 7
+    },
+    {
+        
+        "titre": "????????",
+        "img": "../almanach des portail/asset/structure portail noir rouge.svg",
+        "Niveau de menace": "Classes -ésotériques-",
+        "Couleur du portail": "Noir et Rouge",
+        "Date de découverte": "??/??/20??",
+        "Position géographique": "???",
+        "description": "_____________________________________________________",
+        "numero de page": 8
+    },
+    {
+        "titre": "Le Portail Pourpre",
+        "img": "../almanach des portail/asset/structure portail violet.svg",
+        "Niveau de menace": "Euclide",
+        "Couleur du portail": "violet",
+        "Date de découverte": "14/07/2000",
+        "Position géographique": "Les ruines de l'ancienne cité",
+        "description": "Description de l'élément",
+        "numero de page": 9
+    },
+    {
+        "titre": "Le Portail de la ????",
+        "img": "../almanach des portail/asset/structure 2 portail blanc.svg",
+        "Niveau de menace": "Thaumiel",
+        "Couleur du portail": "blanc",
+        "Date de découverte": "??/??/????",
+        "Position géographique": "????????????????",
+        "description": "???",
+        "numero de page": 10
     }
    
 ];
-
 const almanachs = document.getElementById('almanach');
 const bookDiv = document.querySelector('.livre');
 const pageLeft = document.querySelector('.pageLeft');
